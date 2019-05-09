@@ -1,4 +1,4 @@
-def reformat_languages(languages).to_a
+def reformat_languages(languages).to_s
   new_hash = {} 
 
   languages.map do |style, description|
