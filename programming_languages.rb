@@ -3,7 +3,7 @@ def reformat_languages(languages)
   new_hash = {} 
 
   languages.map do |style, description|
-    binding pry
+    binding.pry
     description.map do |lang, type|
       if new_hash.has_key?(lang)
         new_hash[lang][:style] << style
